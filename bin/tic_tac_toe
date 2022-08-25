@@ -1,0 +1,7 @@
+# frozen_string_literal: true
+
+#!/usr/bin/env ruby
+
+$LOAD_PATH << 'lib'
+require 'tic_tac_toe'
+TicTacToe::Runner.start!
